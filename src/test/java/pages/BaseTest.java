@@ -85,7 +85,6 @@ public class BaseTest {
         FileUtils.copyFile(source, destination.toFile());
         return destination.toString();
     }
-
     @AfterClass(alwaysRun=true)
     public void tearDown() {
         try {
